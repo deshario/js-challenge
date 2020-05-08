@@ -1,7 +1,6 @@
 (() => {
   // เริ่มเขียนโค้ด
 
-
   function onScroll(){
     const sectionElements = Array.from(document.querySelectorAll('section'));
     sectionElements.forEach((sectionElem) => {
@@ -20,7 +19,6 @@
   function run(){
     document.addEventListener('scroll',onScroll);
   }
-
 
   run();
 

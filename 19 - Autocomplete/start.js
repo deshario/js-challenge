@@ -5,7 +5,6 @@
     'BMW',
     'Maserati',
     'Mercedes Benz',
-    'mm',
     'Ferrari',
     'Toyota',
     'Honda',
@@ -56,8 +55,8 @@
   function focusItem(item){
     const ulElem = document.querySelector('.results');
     if(ulElem != null){
-      var liArray = Array.from(ulElem.getElementsByTagName("li"));
-      liArray.map((e) => {
+      let listItems = Array.from(ulElem.getElementsByTagName("li"));
+      listItems.map((e) => {
         if(e.innerText == item){
           searchElem.value = item;
           e.classList.add('active');

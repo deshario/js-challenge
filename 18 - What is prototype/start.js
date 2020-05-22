@@ -2,7 +2,6 @@
   // เริ่มเขียนโค้ด
 
   // 1. Class vs Prototype 
-
   class Person{
 
   }
